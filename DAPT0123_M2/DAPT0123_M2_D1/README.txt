@@ -1,0 +1,5 @@
+# Module 2 - Excel
+
+Exercise 1 SUM AVERAGE
+
+Exercise 2 CONCATENATE LOWER SUBSTITUTE IF
