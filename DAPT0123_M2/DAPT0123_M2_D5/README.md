@@ -3,4 +3,4 @@
 Power Query and Power Pivot
 
 
-Analysis of covid19 cases in regiosn in Italy
+Analysis of covid19 cases in regions in Italy
