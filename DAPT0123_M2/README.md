@@ -6,3 +6,4 @@
 - Pivot Tables
 - Power Query
 - Power Pivot
+- Visualizations
