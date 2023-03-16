@@ -2,7 +2,7 @@
 
 ## Excel
 
-- Funcions
+- Functions
 - Pivot Tables
 - Power Query
 - Power Pivot
