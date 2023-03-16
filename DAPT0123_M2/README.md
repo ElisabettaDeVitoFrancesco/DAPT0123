@@ -1,3 +1,8 @@
 # Module 2
 
-Excel
+## Excel
+
+- Funcions
+- Pivot Tables
+- Power Query
+- Power Pivot
