@@ -1,0 +1,128 @@
+1) Ordinare la tabella CUSTOMERS per City e CustomerName
+SELECT * FROM Customers ORDER BY City, CustomerName;
+SELECT * FROM Customers ORDER BY City, CustomerName DESC;
+
+2) Nella tabella CUSTOMERS selezionare solo i records con City uguale a Berlin
+SELECT * FROM Customers WHERE City = "Berlin";
+
+3) Nella tabella OrderDetails calcolare il totale di Quantity e il totale di Quantity per ProductID
+SELECT SUM(Quantity) AS "Totale quantità" FROM OrderDetails;
+
+SELECT ProductID, SUM(Quantity) AS "Totale quantità per ProductID" FROM OrderDetails GROUP BY ProductID;
+
+4) Nella tabella OrderDetails Estrarre tutti i campi di Quantity comprese tra 5 e 20
+SELECT Quantity FROM OrderDetails WHERE Quantity BETWEEN 5 AND 20;
+
+5) Nella tabella PRODUCTS calcolare la media di PRICE
+SELECT AVG(Price) AS "Media prezzi" FROM Products;
+
+6) Nella tabella PRODUCTS estrarre solo tutti i campi dei singoli CategoryID
+SELECT DISTINCT CategoryID FROM Products;
+
+7) Creare una nuova tabella dal nome NUOVA con tre campi NOME, COGNOME, ETA e riempire 10 righe
+CREATE TABLE NUOVA (NOME TEXT, COGNOME TEXT, ETÀ INT);
+INSERT INTO NUOVA VALUES ("Ada", "Adini", 68),
+					("Anna", "Santi", 35),
+                    ("Marco", "TUrini", 47),
+                    ("Simone", "Simoncelli", 18),
+                    ("Lucrezia", "Lucrezini", 24),
+                    ("Elena", "Rossi", 38),
+                    ("Romeo", "Aristogatto", 68),
+                    ("Jane", "Tarzan", 23),
+                    ("Topo", "Lino", 67),
+                    ("Zio", "Paperone", 76);
+					
+8) Aggiungere un campo SESSO
+ALTER TABLE NUOVA ADD SESSO TEXT;
+
+9) Riempire il campo SESSO per ogni riga
+UPDATE NUOVA SET SESSO = "F";
+UPDATE NUOVA SET SESSO = "M" WHERE NOME = "Marco" AND NOME = "Simone" AND NOME = "Romeo" AND NOME = "Topo" AND NOME = "Zio";
+
+10) Calcolare la media di ETA
+SELECT AVG(ETÀ) AS "Media etá" FROM NUOVA;
+
+11) Calcolare il MAX di ETA - il MIN di ETA
+SELECT MAX(ETÀ) - MIN(ETÀ) AS "Diff max e min etá" FROM NUOVA;
+
+12) Calcolare la somma di ETA per SESSO
+SELECT SUM(ETÀ) AS "Totale età" FROM NUOVA GROUP BY SESSO;
+
+
+13) Selezionare da CUSTOMERS, tutti i campi dove COUNTRY è uguale a GERMANY e CITY uguale a Berlin o Dresda o Mannheim
+SELECT * FROM Customers WHERE Country = "Germany" AND (City = "Berlin" OR City = "Dresda" OR City = "Mannheim");
+
+14) Estrarre da NUOVA tutti i COGNOME che iniziano per la lettera C
+SELECT COGNOME FROM NUOVA WHERE COGNOME LIKE "C%";
+
+15) Estrarre da CUSTOMERS tutte le righe dove CITY è vuota
+SELECT * FROM Customers WHERE City = NULL;
+
+16) Aggiornare tutti i COUNTRY uguale e Mexico in MESSICO nella tabella CUSTOMERS
+UPDATE CUSTOMERS SET Country = "MESSICO" WHERE Country = "Mexico";
+
+17) Calcolare SOMMA, MEDIA, MIN e MAX di PRICE con un'unica istruzione
+SELECT SUM(Price) AS "Somma di price", AVG(Price) AS "Media di price", MIN(Price) AS "Minimo di price", MAX(Price) AS "Massimo di price" FROM Products;
+
+18) Contare quante volte si ripete ogni Country nella tabella CUSTOMERS
+SELECT Country, COUNT(country) FROM Customers GROUP BY Country;
+
+19) Estrarre il ProductName da Products, la somma di Price della tabella Products, la somma di Quantity di orderDetails in ordine decrescente di Somma di Price
+SELECT Products.ProductName, SUM(Products.Price), SUM(OrderDetails.Quantity)
+FROM Products
+INNER JOIN OrderDetails ON Products.ProductID = OrderDetails.ProductID
+ORDER BY SUM(Products.Price);
+
+20) Creare una nuova tabella dal nome BACKUPOrders dove riportare tutti i valori dei campi OrderID, OrderDate e ShipperID della tabella Orders
+CREATE TABLE AS BACKUPOrders
+SELECT OrderID, OrderDate, ShipperID
+FROM Orders
+
+21) Estrarre per ogni CustomerID il OrderDate e OrderID da Orders e CustomerName e City da Customers dove il Country è o Mexico o Germany ordinato per CusotmerID
+SELECT Orders.OrderDate, Orders.OrderID, Customers.CustomerName, Customers.City
+FROM Orders
+FULL JOIN Customers ON Orders.CustomerID = Customers.CustomerID
+WHERE Country = "MESSICO" OR Country = "Germany"
+ORDER BY Orders.CustomerID
+
+22) Eliminare la colonna SESSO dalla tabella NUOVA
+ALTER TABLE NUOVA
+DROP COLUMN SESSO;
+
+23) Modificare il tipo di dati del campo Cognome in MEMO
+ALTER TABLE NUOVA
+ALTER COLUMN COGNOME MEMO
+
+24) Estrarre LastName da Employees, e contare gli OrdersID da Orders dando il nome N°Ordini dove il FirstName è Janet o Andrew o Margaret, raggruppando per FirstName solo per quelli con un numero ordini compreso tra 2 e 20
+SELECT Employees.LastName, COUNT(Orders.OrderID) AS "N°Ordini"
+FROM Employees
+LEFT JOIN Orders ON Employees.EmployeeID = Orders.EmployeeID
+WHERE FirstName = "Janet" OR FirstName = "Andrew" OR FirstName = "Margaret"
+GROUP BY FirstName
+HAVING COUNT(Orders.OrderID) BETWEEN 2 AND 20;
+
+25) Creare una nuova tabella dal nome SECONDA con i campi COGNOME (usando i cognomi che avete utilizzato nella tabella NUOVA) CITTA' e REGIONE. Popolare almeno 10 Record.
+CREATE TABLE SECONDA AS
+SELECT COGNOME
+FROM NUOVA
+
+ALTER TABLE SECONDA
+ADD CITTÁ TEXT(50);
+
+ALTER TABLE SECONDA
+ADD REGIONE TEXT(50);
+
+UPDATE SECONDA SET CITTÁ = "Roma"
+WHERE COGNOME = "Adini"; (ripetere)
+
+UPDATE SECONDA SET REGIONE = "Puglia"
+WHERE CITTÁ = "Bari"
+
+26) Estrarre tutte le informazioni di ogni Cognome dalle due tabelle
+SELECT * INTO MERGED FROM SECONDA
+FULL JOIN NUOVA ON SECONDA.COGNOME = NUOVA.COGNOME
+
+27) Calcolare le somma di ETA' per REGIONE
+SELECT SUM(ETÁ) FROM MERGED
+GROUP BY REGIONE;
+
