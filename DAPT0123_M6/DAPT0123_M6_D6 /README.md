@@ -1,4 +1,4 @@
-# M6 - Google Looker
+# D6 - Google Looker
 
 - Importare dati
 
