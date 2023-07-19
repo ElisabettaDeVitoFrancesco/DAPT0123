@@ -61,4 +61,26 @@ NOTE: The descriptive exercises are elaborated in the Italian language.
 
 ## M6 Google Looker
 
+The folder contains all the problem sets created for this module.
+
+Module's chapters:
+
+- D1 Google Analytics
+
+- D2 Connections and connector
+
+- D3 Layout ar report and page level
+
+- D4 Overview of visualizations
+
+- D5 Overview of visualizations
+
+- D6 Filters, dates, styles, report sharing
+
+- D7 Data blending, connections to multiple data sources
+
+- D8 Data blending, connections to multiple data sources
+
+NOTE: The descriptive exercises are elaborated in the Italian language.
+
 ## M7 Final project
