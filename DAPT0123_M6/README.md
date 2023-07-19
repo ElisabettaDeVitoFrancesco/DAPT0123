@@ -2,16 +2,16 @@
 
 - D1 Google Analytics
 
-- D2 Connessione e connettori
+- D2 Connections and connector
 
-- D3 Layout a livello di report e di pagina
+- D3 Layout ar report and page level
 
-- D4 Panoramica grafici
+- D4 Overview of visualizations
 
-- D5 Panoramica grafici
+- D5 Overview of visualizations
 
-- D6 Filtri, date, stili, condivisione report
+- D6 Filters, dates, styles, report sharing
 
-- D7 Data blending, connessione a più origini dati
+- D7 Data blending, connections to multiple data sources
 
-- D8 Data blending, connessione a più origini dati
+- D8 Data blending, connections to multiple data sources
