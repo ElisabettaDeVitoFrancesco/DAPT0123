@@ -1,11 +1,11 @@
-# M4 Google Looker
+# M4 - Google Looker
 
 - Importare dati
 
 - Visualizzazioni
 
+- Utilizzo di pulsanti e filtri
+
 Report visibile su
 
-https://lookerstudio.google.com/reporting/e3a340cb-a5ca-4565-bc12-4c341017e4db Analisi di fatturato per prodotto cliente regione
-
-https://lookerstudio.google.com/reporting/e1b7095f-e8d0-4d10-bcc2-97810703db4f Analisi di fatturato per prodotto categoria regione
+https://lookerstudio.google.com/reporting/87c87100-ccd3-461c-bf17-adb2ae84aea6 Analisi vincite Europea League
