@@ -29,7 +29,29 @@ Module's chapters:
 
 NOTE: The descriptive exercises are elaborated in the Italian language.
 
-## M2 Excel
+## Module 2 - Excel
+
+The folder contains all the problem sets created for this module.
+
+Module's chapters:
+
+- D1  Introduction to Excel
+
+- D2  Data cleaning
+
+- D3  Functions
+
+- D4  Visualizations
+
+- D5  Pivot tables and pivot visualizations
+
+- D6  Power Query
+
+- D7  Power Pivot
+
+- D8  Power Pivot Visualizations
+
+NOTE: The descriptive exercises are elaborated in the Italian language.
 
 ## M3 Databases and SQL
 
