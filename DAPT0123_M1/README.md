@@ -16,8 +16,8 @@ Module's chapters:
 
 - D6  Open Data CSV (ETL process)
 
-- D7  Open Data CSV and XML
+- D7  (Open Data CSV and XML) Introduction to Excel
 
-- D8  Open Data CSV and JSON
+- D8  (Open Data CSV and JSON) Introduction to Excel
 
 NOTE: The descriptive exercises are elaborated in the Italian language.
