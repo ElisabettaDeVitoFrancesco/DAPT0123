@@ -100,14 +100,14 @@ CREATE TABLE SALES (
 ----------------------------------------------------------------------------------------------------
 -- Interrogazioni
 ----------------------------------------------------------------------------------------------------
--- 1. Selezionare i prodotti, qunatit‡ e costo totale avendo il costo totale superiore a 100
+-- 1. Selezionare i prodotti, qunatit√† e costo totale avendo il costo totale superiore a 100
 SELECT prod_id
 	, quantity
 	, tot_cost
 FROM SALES
 WHERE tot_cost > 100;
 
--- 2. Calcolare il totale dei costi e quantit‡ comprate per cliente
+-- 2. Calcolare il totale dei costi e quantit√† comprate per cliente
 SELECT customer_ID
 	, SUM(tot_cost) AS tot_cost_customer
 	, SUM(quantity) AS tot_quantity_customer
@@ -124,7 +124,7 @@ FROM SALES AS s
 LEFT JOIN DATES AS d
 	ON s.order_date_ID = d.date_ID;
 
--- 4. Calcolare il totale dei costi e quantit‡ comprate per cliente e per nome del prodotto
+-- 4. Calcolare il totale dei costi e quantit√† comprate per cliente e per nome del prodotto
 SELECT s.customer_ID
 	, p.product_name
 	, SUM(s.tot_cost) AS tot_cost_customer
