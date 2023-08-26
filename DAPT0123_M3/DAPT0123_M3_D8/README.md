@@ -6,11 +6,13 @@ Un sito di e-commerce che gestisce vendite da parte di realtà commerciali inter
 ### 1. Modello concettuale E/R
 Il modello concettuale consiste in 8 entitá con relative associazioni e molteplicitá, tra cui un'associazione ricorsiva e una ternaria.
 Si puó consultare dall'immagine sottostante o dal file M3_D8_EsercitazioneFinale_ER_ElisabettaDeVitoFrancesco.pdf caricato nella cartella.
+
 ![immagine](https://github.com/ElisabettaDeVitoFrancesco/DAPT0123_EpicodeSchool/assets/26467328/b96c7514-f3d6-4258-82fa-3d931cb3eff4)
 
 
 ### 2. Modello logico
 Il modello logico si puó consultare dall'immagine sottostante o dal file M3_D8_EsercitazioneFinale_ER_ElisabettaDeVitoFrancesco.pdf caricato nella cartella.
+
 ![immagine](https://github.com/ElisabettaDeVitoFrancesco/DAPT0123_EpicodeSchool/assets/26467328/66f20a73-e5c2-46a5-bc50-1d4e40f1ea69)
 
 
