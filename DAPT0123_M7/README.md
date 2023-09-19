@@ -1,6 +1,6 @@
 # Module M7 - Final project
 ### Note
-To view the Power BI file please follow the link: .
+To view the Power BI file please follow the link: https://1drv.ms/f/s!AohTLQtn2yC1ikJbdVGwdSZnc1Wq?e=nit2Dr.
 
 ## Scope
 The project analyzes the water quality of rivers and lakes in European countries, with a particular comparison between Austria and Italy.
