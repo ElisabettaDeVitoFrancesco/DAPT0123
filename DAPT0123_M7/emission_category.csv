@@ -1,0 +1,33 @@
+,EmissionSourceCat,EmissionSourceCatLabel
+0,PT,Point Sources
+1,U,Point Urban Wastewater
+2,U1,Point Urban Wastewater Untreated
+3,U11,Point Urban Wastewater Untreated less than 2000 p.e.
+4,U12,Point Urban Wastewater Untreated between 2000 and 10000 p.e.
+5,U13,Point Urban Wastewater Untreated between 10000 and 100000 p.e.
+6,U14,Point Urban Wastewater Untreated more than 100000 p.e.
+7,U2,Point Urban Wastewater Treated
+8,U21,Point Urban Wastewater Treated less than 2000 p.e.
+9,U22,Point Urban Wastewater Treated between 2000 and 10000 p.e.
+10,U23,Point Urban Wastewater Treated between 10000 and 100000 p.e.
+11,U24,Point Urban Wastewater Treated more than 100000 p.e.
+12,I,Point Industrial Wastewater
+13,I3,Point Industrial Wastewater Treated
+14,I4,Point Industrial Wastewater Untreated
+15,O,Point Other point emissions
+16,O1,Point Contaminated sites or abandoned industrial sites
+17,O2,Point Waste disposal sites
+18,O3,Point Mine waters
+19,O4,Point Aquaculture
+20,NP,Diffuse sources
+21,NP1,Diffuse Agricultural emissions
+22,NP2,Diffuse Atmospheric deposition
+23,NP3,Diffuse Un-connected dwellings emissions
+24,NP4,Diffuse Urban run-off
+25,NP5,Diffuse Storm overflow emissions
+26,NP7,Diffuse Other diffuse emissions
+27,NP8,Diffuse Background emissions
+28,NP71,Diffuse Other Forestry emissions
+29,NP72,Diffuse Other Transport emissions
+30,NP73,Diffuse Other Mining emissions
+31,NP74,Diffuse Other Aquaculture emissions
