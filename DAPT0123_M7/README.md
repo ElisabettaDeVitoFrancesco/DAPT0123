@@ -4,7 +4,7 @@ To view the Power BI file please follow the link: https://1drv.ms/f/s!AohTLQtn2y
 
 ## Scope
 The project analyzes the water quality of rivers and lakes in European countries, with a particular comparison between Austria and Italy.
-The online database Discodata from the European Environment Agency website as a data source, https://discodata.eea.europa.eu/#.
+The online database Discodata from the European Environment Agency website was used as a data source, https://discodata.eea.europa.eu/#.
 
 ## Tools
 - Python, Jupyter Notebooks
