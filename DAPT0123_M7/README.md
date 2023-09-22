@@ -1,6 +1,6 @@
 # Module M7 - Final project
 ### Note
-To view the Power BI file please follow the link: https://1drv.ms/f/s!AohTLQtn2yC1ikJbdVGwdSZnc1Wq?e=nit2Dr.
+To view and download the Power BI file please follow the link: https://1drv.ms/f/s!AohTLQtn2yC1ikJbdVGwdSZnc1Wq?e=nit2Dr.
 
 ## Scope
 The project analyzes the water quality of rivers and lakes in European countries, with a particular comparison between Austria and Italy.
@@ -15,7 +15,7 @@ The online database Discodata from the European Environment Agency website was u
 ### Python
 In order to import the needed tables or the analysis Python programming language and Jupyter Notebooks were used, in particular the packages request, pandas, json, numpy and beautifulsoup.
 
-Two approaches to import the tables were used: either a direct import as a csv file (pandas.read_csv()), or a request to access the url of the table, which was provided by the online database, then transform the table to json and then as a dataframe.
+Two approaches to import the tables were used: either a direct import as a csv file, or a request to access the url of the table, which was provided by the online database, then transform the table to json and then as a dataframe.
 
 Each table needed for analysis was explored and cleaned, which means understanding the type of attributes, searching and eliminating null and duplicate values, all through the pandas package and in small part of numpy.
 
