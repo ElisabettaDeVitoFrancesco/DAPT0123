@@ -1,4 +1,8 @@
 # Module M7 - Final project
+
+![Intro](https://github.com/ElisabettaDeVitoFrancesco/DAPT0123_EpicodeSchool/assets/26467328/a49b8fcc-6480-4474-8640-498bd4f4ed8b)
+
+
 ### Note
 To view and download the Power BI .pbi file please follow the link: https://1drv.ms/f/s!AohTLQtn2yC1ikJbdVGwdSZnc1Wq?e=nit2Dr.
 
