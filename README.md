@@ -1,4 +1,4 @@
-# Data Analyst Part Time course
+# Data Analyst course
 
 This folder contains all the exercises completed during the course Data Analyst at Epicode school.
 The modules are listed below.
