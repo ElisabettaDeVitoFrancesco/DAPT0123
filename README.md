@@ -15,7 +15,7 @@ Module's chapters:
 
 - D2  Professional roles in the world of data
 
-- D3  Oepn Data
+- D3  Open Data
 
 - D4  Analysis and collection requisites
 
@@ -55,9 +55,64 @@ NOTE: The descriptive exercises are elaborated in the Italian language.
 
 ## M3 Databases and SQL
 
+Module's chapters:
+
+- D1  Conceptual model design 
+
+- D2  Logical database model design
+
+- D3  DBMS and data types
+
+- D4  SQL Data Definition and Manipulation Language: SELECT, WHERE, SELECT DISTINCT, operators
+
+- D5  SQL Data Definition and Manipulation Language: GROUP BY, ORDER BY, HAVING, AGGREGATION FUNCITONS
+
+- D6  JOIN, UNION
+
+- D7  Nested Select, DATETIME FUNCTIONS
+
+- D8  Safety, VIEWS in SQL
+
+
 ## M4 Python
 
+Module's chapters:
+
+- D1  Introduction to programming and to Python
+
+- D2  Data types
+
+- D3  Conditional structure and loops
+
+- D4  Lists, Tuples, for loop
+
+- D5  Dictionaries, sets
+
+- D6  Local and global variables, methods, modules and packages
+
+- D7  Error management
+
+- D8  Pandas
+
 ## M5 Power BI
+
+Module's chapters:
+
+- D1  Introduction to Power BI
+
+- D2  User interface and data import
+
+- D3  Data model creation
+
+- D4  Relationships between tables
+
+- D5  DAX operations
+
+- D6  Data visualisation
+
+- D7  Practical examples
+
+- D8  Conditional formatting and drill-through
 
 ## M6 Google Looker
 
