@@ -1,6 +1,6 @@
 # Module M7 - Final project
 
-![Intro](https://github.com/ElisabettaDeVitoFrancesco/DAPT0123_EpicodeSchool/assets/26467328/a49b8fcc-6480-4474-8640-498bd4f4ed8b)
+![Thumbnail](https://github.com/ElisabettaDeVitoFrancesco/DAPT0123_EpicodeSchool/assets/26467328/379a4914-6d53-4b40-99dd-634fd7b1a9dd)
 
 
 ### Note
